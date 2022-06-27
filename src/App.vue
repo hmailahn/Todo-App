@@ -6,14 +6,13 @@ import TodoList from './components/TodoList.vue'
 
 <template>
   <header>
+    </header>
+    <div class="container">
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" />
 
    <todo-list></todo-list>
-  </header>
+</div>
 
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style>
